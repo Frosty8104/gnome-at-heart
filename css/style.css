@@ -1,0 +1,178 @@
+/*
+  text color: #fec024 (gold)
+  text color: #ffec88 lt yellow)
+  text-shadow: #cd661d (lt brown)
+  toons: .ire, .sara, .ny, .gny, .raz, .boum, .soly, .gnawm, .ell, .quyl, .brom, .em, .jyn, .tam, .lina, .kiri, .ruff, .nuff, .muff, .tuff, .moya, .lyri, .nuffy, .niq, .sny, .doom, .taly, .gnome, .noum, .roam, .gopher, .tanky 
+  misc: .note, .stories
+  characters: h3, p, .race, .class, .spec, .hair, .eye, .gear
+*/
+/* GNOME AT HEART STYLESHEET */
+body {
+  font-size: 16px;
+  background: url(../img/gnometree.png);
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  max-width: 1200px;
+}
+header {
+  color: #fec024;
+}
+header h1 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+header h6 {
+  font-size: 0.875em;
+  text-align: center;
+}
+/* NAVIGATION */
+#roster {
+  width: 15%;
+}
+nav {
+  width: 80%;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav img {
+  width: 30%;
+}
+/* CHARACTERS */
+#toons {
+  float: left;
+}
+#toons ul li {
+ display: inline-block;
+}
+#toons ul li a {
+  font-size: 1em;
+  text-decoration: none;
+  color: #fec024;
+}
+.ire {
+  position: absolute;
+  top: 22%;
+  left: 46.2%;
+  text-shadow: 1px 1px #cd661d;
+}
+.sara {
+  position: absolute;
+  top: 22%;
+  left: 50.5%;
+  text-shadow: 1px 1px #cd661d;
+}
+.ny {
+  position: absolute;
+  top: 26.5%;
+  left: 48.5%;
+  text-shadow: 1px 1px #cd661d;
+}
+.gny {
+  position: absolute;
+  top: 40%;
+  left: 55.4%;
+  text-shadow: 1px 1px #cd661d;
+}
+.nuff {
+  position: absolute;
+  top: 41.5%;
+  left: 44%;
+  text-shadow: 1px 1px #cd661d;
+}
+.kiri {
+  position: absolute;
+  top: 18.5%;
+  left: 43%;
+  text-shadow: 1px 1px #cd661d;
+}
+.lina {
+  position: absolute;
+  top: 18.5%;
+  left: 37%;
+  text-shadow: 1px 1px #cd661d;
+}
+.muff {
+  position: absolute;
+  top: 22%;
+  left: 31.5%;
+  text-shadow: 1px 1px #cd661d;
+}
+.ruff {
+  position: absolute;
+  top: 33%;
+  left: 35%;
+  text-shadow: 1px 1px #cd661d;
+}
+.tuff {
+  position: absolute;
+  top: 22%;
+  left: 27.6%;
+  text-shadow: 1px 1px #cd661d;
+}
+.stories {
+  position: absolute;
+  top: 60.3%;
+  left: 48%;
+  text-shadow: 1px 1px #cd661d;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.note {
+  color: #fec024;
+  text-shadow: 1px 1px #cd661d;
+  position: absolute;
+  top: 85%;
+  left: 39%;
+  font-size: 1em;
+}
+#script {
+  color: #fec024;
+  text-shadow: 1px 1px #cd661d;
+}
+h3 {
+  position: absolute;
+  top: 45%;
+  left: 46.5%;
+}
+.race {
+  position: absolute;
+  top: 47%;
+  left: 46.5%;
+}
+.class {
+  position: absolute;
+  top: 49%;
+  left: 46.5%;
+}
+.spec {
+  position: absolute;
+  top: 51%;
+  left: 46.5%;
+}
+.hair {
+  position: absolute;
+  top: 69%;
+  left: 46.3%;
+}
+.eye {
+  position: absolute;
+  top: 71%;
+  left: 46.5%;
+}
+.gear {
+  position: absolute;
+  top: 73%;
+  left: 46.5%;
+}
+.nick {
+  position: absolute;
+  top: 75%;
+  left: 45.5%;
+}
